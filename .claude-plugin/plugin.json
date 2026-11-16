@@ -1,8 +1,17 @@
 {
   "name": "vibe3d-render-studio",
   "displayName": "Vibe3D",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Render and refine architectural designs, compare saved versions, and manage private Vibe3D projects.",
+  "keywords": [
+    "architecture",
+    "architectural-visualization",
+    "architectural-rendering",
+    "archviz",
+    "interior-design",
+    "exterior-design",
+    "image-enhancement"
+  ],
   "author": {
     "name": "Vibe3D",
     "url": "https://vibe3d.ai"
