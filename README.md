@@ -2,7 +2,7 @@
 
 ![Vibe3D logo](assets/icon.png)
 
-Draft for architectural design visualization in Claude. This bundle is not yet listed in the Claude directory. Directory-policy eligibility, distribution, and full Claude workflow testing remain pending.
+Preview release for architectural design visualization in Claude.
 
 Vibe3D connects Claude to your private architectural projects. Render a model-view image, revise materials or lighting, enhance an architectural image, and compare saved versions. The bundle contains one workflow skill and a reference to Vibe3D's hosted MCP server. It has no local server, executable scripts, hooks, or embedded credentials.
 
@@ -47,6 +47,8 @@ To revoke the active MCP connection, open Vibe3D → Profile → Connected apps.
 
 The manifest, connector configuration, documentation, and workflow skill are licensed under the [MIT License](LICENSE). The Vibe3D name and logo are excluded; branding rights are reserved and no trademark rights are granted. This license does not cover Vibe3D's hosted service, application, or backend code.
 
-## Distribution status
+## Preview status
 
-The owner has approved MIT for the text and configuration and a private preparation repository at [vibe3d-ai/vibe3d-claude-plugin](https://github.com/vibe3d-ai/vibe3d-claude-plugin). Public repository visibility and directory publication have not been approved. This bundle is not ready for directory submission. Directory eligibility and complete workflow coverage must be resolved before publication; do not treat the example prompts as evidence that every operation has been tested.
+The custom connector's Claude web workflow has been exercised with a private architectural demo: Studio upload, rendering, a saved-version revision, enhancement, and comparison. The source image and earlier versions were preserved.
+
+Installed-plugin behavior, Claude Code/mobile use, and the remaining authentication, retry, failure, favorite, and sharing cases have not been verified in this preview. The example prompts describe intended workflows, not a claim that every tool or client has been tested. Directory listing and approval are separate from these checks.
