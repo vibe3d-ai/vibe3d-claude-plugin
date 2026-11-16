@@ -29,7 +29,7 @@ Rendering, revisions, and enhancement use Vibe3D credits. Project browsing and i
 
 ## Privacy and sharing
 
-Tool calls send the selected project/scene identifiers, architectural images, design instructions, and requested account actions to Vibe3D. Vibe3D stores projects, source images, generated versions, and related account records, and uses third-party AI processors for generation as described in its privacy policy. Studio transfers selected images through Vibe3D's signed storage URLs. The bundle itself adds no separate storage or analytics service.
+Tool calls send the selected project/scene identifiers, architectural images, design instructions, and requested account actions to Vibe3D. Vibe3D stores projects, source images, generated versions, and related account records, and uses third-party AI processors for generation as described in its privacy policy. Studio and file-capable clients transfer selected images directly to Vibe3D's Amazon S3 storage using signed URLs returned by the connector. The skill's direct-upload flow uses the client's authorized HTTP tools for this separate HTTPS transfer outside the MCP connection; OAuth credentials must not be forwarded to storage. The bundle itself adds no separate storage or analytics service.
 
 New projects and images are private. Sharing needs a separate explicit request. Anyone with a shared scene link who signs in to Vibe3D can view that scene and all its versions. Revoking sharing restores owner-only access. The normal web-editor link is not a sharing link.
 
