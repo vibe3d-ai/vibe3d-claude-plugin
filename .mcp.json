@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "vibe3d": {
+      "type": "http",
+      "url": "https://basecamp.vibe3d.ai/mcp"
+    }
+  }
+}
