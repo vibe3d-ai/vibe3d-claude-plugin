@@ -7,10 +7,15 @@
     "architecture",
     "architectural-visualization",
     "architectural-rendering",
+    "ai-rendering",
+    "photorealistic-rendering",
     "archviz",
     "interior-design",
+    "interior-rendering",
     "exterior-design",
-    "image-enhancement"
+    "exterior-rendering",
+    "image-enhancement",
+    "ai-render-enhancer"
   ],
   "author": {
     "name": "Vibe3D",
