@@ -45,7 +45,7 @@ To revoke the active MCP connection, open Vibe3D → Profile → Connected apps.
 
 ## License
 
-The manifest, connector configuration, documentation, and workflow skill are licensed under the [MIT License](LICENSE). The Vibe3D name and logo, including `assets/icon.png`, are excluded; branding rights are reserved and no trademark rights are granted. This license does not cover Vibe3D's hosted service, application, or backend code.
+The manifest, connector configuration, documentation, and workflow skill are licensed under the [MIT License](LICENSE). The Vibe3D name and logo are excluded; branding rights are reserved and no trademark rights are granted. This license does not cover Vibe3D's hosted service, application, or backend code.
 
 ## Distribution status
 
